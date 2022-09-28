@@ -10,3 +10,6 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 Dans le dossier Resultat se trouve une version transpillée du code. Le document index.html est utilisable en l'état.
 
+
+## Le nombre de chat est modifiable dans le code
+![image](https://user-images.githubusercontent.com/114618469/192883542-4cd0dcc2-2bed-44fb-9c29-2501668d5487.png)
