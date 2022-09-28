@@ -1,0 +1,10 @@
+<div class="container">
+    <div class="title">Chat {{name}}</div>
+    <div class="chat">
+        <app-chat [clientCreator]="name"></app-chat>
+    </div>
+    <form class="controller">
+        <input class="input" [(ngModel)]="message" name="input" (keyup.enter)="validate()" />
+        <input class="button" type="button" value="Ok" (click)="validate()">
+    </form>
+</div>

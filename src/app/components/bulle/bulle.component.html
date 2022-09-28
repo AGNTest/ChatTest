@@ -1,0 +1,12 @@
+<div *ngIf="isCreator()" class="creator">
+    <div class="date">{{getDate(message?.created)}}</div>
+    <div class="bulle">{{message?.content}}</div>
+
+</div>
+<div *ngIf="!isCreator()" class="not-creator">
+    <div class="bulle">{{message?.content}}</div>
+    <div class="information">
+        <div class="author">{{message?.author}}</div>
+        <div class="date">{{getDate(message?.created)}}</div>
+    </div>
+</div>

@@ -1,0 +1,16 @@
+.container{
+    .title{
+        font-size: 18px;
+    }
+.controller{
+    display: flex;
+ 
+    justify-content: space-between;
+    margin-top: 10px;
+    height: 25px;
+    .input{
+        width: 70%;
+    }
+.button{width: 20%;}
+}
+}
